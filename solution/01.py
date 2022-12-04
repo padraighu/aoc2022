@@ -27,8 +27,6 @@ def part_one(input: List[List[int]]) -> int:
 
 def part_two(input: List[List[int]]) -> int:
     sums = [sum(e) for e in input]
-    print(input)
-    print(sorted(sums)[-3:])
     res = sum(sorted(sums)[-3:])
     return res
 
