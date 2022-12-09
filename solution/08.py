@@ -71,6 +71,6 @@ def test_part_one(input: str, res: int) -> None:
     assert part_one(parse_input(input)) == res
 
 
-@pytest.mark.parametrize("input, res", [(TEST_INPUT, 8), (REAL_INPUT, 1546)])
+@pytest.mark.parametrize("input, res", [(TEST_INPUT, 8), (REAL_INPUT, 519064)])
 def test_part_two(input: str, res: int) -> None:
     assert part_two(parse_input(input)) == res
